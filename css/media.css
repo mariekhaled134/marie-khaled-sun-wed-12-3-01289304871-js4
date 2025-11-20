@@ -1,0 +1,38 @@
+ /* smart watches xs */
+
+@media all and(width < 640px){
+   .input-wrapper{
+    margin-top: 450px;
+ } 
+
+}
+
+/* smart phones sm */
+@media all and( 640px <= width < 768px){
+ .input-wrapper{
+    margin-top: 450px;
+ } 
+}
+
+/* tablet md */
+@media all and( 768px <= width < 1024px){
+    .md-50{
+      
+        height: 70vh;
+    }
+}
+/* labtop lg*/
+@media all and( 1024px <= width < 1280px){
+    .lg-33{
+width: 33%;
+    }
+    .rate{
+height: 70vh;
+    }
+
+}/* labtop large  xl*/
+@media all and( 1280px <= width < 1563px){
+    .xl-25{
+        width: 25%;
+    }
+} 
