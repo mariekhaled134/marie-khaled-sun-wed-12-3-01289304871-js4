@@ -18,7 +18,7 @@ return days[date.getDay()]
 
 async function getWeather(city) {
   var res = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=eeb2f4b099234769a32221102251811&q=${city}&days=3`
+    `https://api.weatherapi.com/v1/forecast.json?key=eeb2f4b099234769a32221102251811&q=${city}&days=3`
   );
 
   var data = await res.json();
